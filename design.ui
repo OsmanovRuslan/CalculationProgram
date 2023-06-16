@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>510</width>
-    <height>450</height>
+    <height>600</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -17,14 +17,14 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>CalculationProgram</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>370</y>
+      <y>530</y>
       <width>150</width>
       <height>50</height>
      </rect>
@@ -97,19 +97,6 @@
     </property>
     <property name="wordWrap">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>300</y>
-      <width>250</width>
-      <height>40</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Влажность воздуха, %</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -191,17 +178,124 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>300</y>
-      <width>100</width>
+      <x>60</x>
+      <y>350</y>
+      <width>300</width>
       <height>40</height>
      </rect>
     </property>
+    <property name="text">
+     <string>Расчет требуемого сопротивления теплопередаче конструкций стены, м2 °С/Вт</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>410</y>
+      <width>300</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Толщина утеплителя наружной стены, мм</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>470</y>
+      <width>300</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Толщина утеплителя чердак, мм</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>350</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>410</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>470</y>
+      <width>50</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>300</y>
+      <width>300</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Результаты</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>

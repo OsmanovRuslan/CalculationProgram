@@ -2,7 +2,7 @@ import math
 
 
 class Calculation:
-    def __init__(self, t_inner_int, t_otopit_periuda_int, t_ext, z_otopit_perioda):
+    def __init__(self, t_inner_int, t_ext, z_otopit_perioda, t_otopit_periuda_int):
         self.t_inner_int = t_inner_int  # Температура внутреннего воздуха, °C
         self.t_otopit_periuda_int = t_otopit_periuda_int  # Средняя расчетная температура отопительного периода, °C
         self.t_ext = t_ext  # Расчетная зимняя температура наружного воздуха, °C
